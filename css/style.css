@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+/*=============
+  reset-css
+=============*/
+
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+code,
+img,
+small,
+strong,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+
+/*============
+  font-css
+============*/
+
+@font-face {
+  font-family: ;
+  src: url();
+}
+
+
+/*.content font*/
+
+.content,
+.wf-sawarabimincho {
+  font-family: "Sawarabi Mincho";
+}
+
+.content {
+  margin-bottom: 55px;
+  font-size: 1.2rem;
+  font-feature-settings: "palt" 1;
+  letter-spacing: 0.2rem;
+  line-height: 3.4rem;
+}
+
+
+/*.title font*/
+
+.title,
+.wf-hannari {
+  font-family: "Hannari";
+}
+
+.title {
+  margin-bottom: 55px;
+  font-size: 2.1rem;
+  font-feature-settings: "palt" 1;
+  line-height: 2.1rem;
+}
+
+
+/*=============
+  style-css
+=============*/
+iframe{
+  margin-bottom: 55px;
+}
+.container {
+  margin: 0 auto;
+  width: 600px;
+}
+
+footer {
+  color: #eee;
+  background-color: #333;
+}
